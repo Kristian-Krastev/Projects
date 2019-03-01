@@ -41,7 +41,7 @@ void Game::start()
 					matrix.clean();
 					matrix.gameOver();
 					matrix.draw();
-					Sleep(1000);
+					Sleep(100);
 					system("CLS");
 					matrix.clean();
 					projectiles.removeAllProjectiles();
